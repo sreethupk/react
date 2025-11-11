@@ -2,21 +2,37 @@
 // import { Link, Route, Routes } from 'react-router-dom'
 // import Home from './react-router-dom/Home'
 // import About from './react-router-dom/About'
-import { Route, Routes } from 'react-router-dom'
+// import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Form from './form/Form'
+// import Contact from '../work/contact'
 // import UsersList from './functional.component/hooks/usecontext-Hook/user-list/UsersList'
 // import { UserApiProvider } from './functional.component/hooks/usecontext-Hook/user-list/UserApiContext'
 // import Home from './functional.component/hooks/usecontext-Hook/dark&light-mode/Home'
 // import { ThemeProvider } from './functional.component/hooks/usecontext-Hook/dark&light-mode/ThemeContext'
 
-import Navbar from "./nested-routing/Navbar"
-import Home from './nested-routing/pages/Home'
-import About from './nested-routing/pages/About'
-import Service from './nested-routing/pages/Service'
-import WebDev from './nested-routing/pages/service/WebDev'
-import AppDev from './nested-routing/pages/service/AppDev'
-import Design from './nested-routing/pages/service/Design'
+// import { Route, Routes } from "react-router-dom"
+// import Navbar from "../work/Navbar"
+// import Home from "../work/Home"
+// import About from "../work/About"
+// import Contact from "../work/Contact"
+// import "../work/navbar.css"
 
+// import SimpleForm from "./form/SimpleForm"
+
+
+// import RealWorld from "./react-keys/RealWorld"
+
+// import Items from "./react-keys/items"
+
+// import Navbar from "./nested-routing/Navbar"
+// import Home from './nested-routing/pages/Home'
+// import About from './nested-routing/pages/About'
+// import Service from './nested-routing/pages/Service'
+// import AppDev from './nested-routing/pages/service/AppDev'
+// import Design from './nested-routing/pages/service/Design'
+// import { Route, Routes } from "react-router-dom"
+// import WebDev from './nested-routing/pages/service/WebDev';
 
 // import { Route, Routes } from "react-router-dom"
 // import Product from "./dynamic-routing/Product"
@@ -90,21 +106,44 @@ function App() {
      </Routes> */}
 
       {/* -------nested routing----------- */}
-      <Navbar />
+       {/* <Navbar />
       <div className="container-app">
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/about' element={<About />} /> */}
 
           {/* nested routing starts here */}
-          <Route path='/service' element={<Service />}>
-          <Route path='web-development' element={<WebDev/>}/>
-          <Route path='app-development' element={<AppDev/>}/>
-          <Route path='design' element={<Design/>}/>
+          {/* <Route path='/service' element={<Service />}>
+          <Route path="web-development" element={<WebDev/>}/> */}
+            {/* <Route path='web-development' element={<WebDev />} /> */}
+            {/* <Route path='app-development' element={<AppDev />} />
+            <Route path='design' element={<Design />} />
           </Route>
         </Routes>
 
-      </div>
+      </div> */}
+
+      {/* -----------------react keys-------------------------- */}
+      {/* <Items/> */}
+      {/* <RealWorld/> */}
+
+      {/* ----------form------- */}
+      {/* <SimpleForm/> */}
+     <Form/>
+      
+
+
+      {/* ---------------------my website------------------- */}
+        
+        {/* <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/contact" element={<Contact/>}/>
+
+        </Routes> */}
+
+     
 
 
 

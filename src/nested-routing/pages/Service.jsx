@@ -10,15 +10,16 @@ const Service = () => {
 
       <div className='services-links'>
         <Link to='web-development'
-        className='service-link.web '>Web Developement
-        
+        className='service-link web '>Web Developement
         </Link>
 
-        <Link to='app-development' className='service-link.app'>
+
+
+        <Link to='app-development' className='service-link app'>
         App Development
         </Link>
 
-        <Link to='design' className='service-link.design'>Design</Link>
+        <Link to='design' className='service-link design'>Design</Link>
       </div>
 
       {/* nested route content */}
