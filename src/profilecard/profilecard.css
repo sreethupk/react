@@ -1,0 +1,118 @@
+/* Background & font setup */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+.crud-background {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  background: linear-gradient(135deg, white 0%, yellow 100%);
+  padding: 40px;
+  box-sizing: border-box;
+  color: #333;
+}
+
+/* Card container with glass effect */
+.crud-card {
+  background: rgba(255,255,255,0.15);
+  border-radius: 20px;
+  padding: 30px;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #333;
+}
+
+/* Titles */
+.crud-card h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+/* Form */
+.crud-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.crud-card input {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.25);
+  color: #333;
+  font-size: 16px;
+  outline: none;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.crud-card input::placeholder {
+  color: #eee;
+}
+.crud-card input:focus {
+  background: rgba(255,255,255,0.4);
+  box-shadow: 0 0 8px rgba(255,255,255,0.25);
+}
+
+/* Button */
+.crud-card button {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #9b59b6, #3498db);
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+.crud-card button:hover {
+  opacity: 0.9;
+}
+
+/* Error text */
+.error {
+  color: #ff6b6b;
+  font-size: 14px;
+  margin-top: -10px;
+}
+
+/* User list / table */
+.crud-list {
+  margin-top: 30px;
+  color: #333;
+}
+.crud-list h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+.crud-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.crud-list th, .crud-list td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+button.edit {
+  background: #27ae60;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+button.delete {
+  background: #e74c3c;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

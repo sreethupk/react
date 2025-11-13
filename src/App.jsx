@@ -4,7 +4,9 @@
 // import About from './react-router-dom/About'
 // import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Form from './form/Form'
+// import Profilecard from './profilecard/Profilecard'
+import Crud from './local-storage/Crud'
+// import Form from './form/Form'
 // import Contact from '../work/contact'
 // import UsersList from './functional.component/hooks/usecontext-Hook/user-list/UsersList'
 // import { UserApiProvider } from './functional.component/hooks/usecontext-Hook/user-list/UserApiContext'
@@ -129,7 +131,14 @@ function App() {
 
       {/* ----------form------- */}
       {/* <SimpleForm/> */}
-     <Form/>
+     {/* <Form/> */}
+
+     {/* ------------localStorage----------- */}
+     <Crud/> 
+
+     {/*----------------- productcard ----------------*/}
+     {/* <Profilecard/> */}
+
       
 
 
