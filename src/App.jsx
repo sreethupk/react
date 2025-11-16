@@ -4,8 +4,13 @@
 // import About from './react-router-dom/About'
 // import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Banner from './website/Banner'
+import Category from './website/Category'
+import Featured from './website/Featured'
+import Footer from './website/Footer'
+import Navbar from './website/Navbar'
 // import Profilecard from './profilecard/Profilecard'
-import Crud from './local-storage/Crud'
+// import Crud from './local-storage/Crud'
 // import Form from './form/Form'
 // import Contact from '../work/contact'
 // import UsersList from './functional.component/hooks/usecontext-Hook/user-list/UsersList'
@@ -134,7 +139,7 @@ function App() {
      {/* <Form/> */}
 
      {/* ------------localStorage----------- */}
-     <Crud/> 
+     {/* <Crud/>  */}
 
      {/*----------------- productcard ----------------*/}
      {/* <Profilecard/> */}
@@ -152,6 +157,12 @@ function App() {
 
         </Routes> */}
 
+        {/* project */}
+      <Navbar/>
+      <Banner/>
+      <Category/>
+      <Featured/>
+      <Footer/>
      
 
 
