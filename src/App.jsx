@@ -4,11 +4,16 @@
 // import About from './react-router-dom/About'
 // import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Banner from './website/Banner'
-import Category from './website/Category'
-import Featured from './website/Featured'
-import Footer from './website/Footer'
-import Navbar from './website/Navbar'
+// import AxiosGet from './Axios/AxiosGet'
+import AxiosPost from './Axios/AxiosPost'
+// import ToDoList from './To-do-list/ToDoList'
+
+
+// import Banner from './website/Banner'
+// import Category from './website/Category'
+// import Featured from './website/Featured'
+// import Footer from './website/Footer'
+// import Navbar from './website/Navbar'
 // import Profilecard from './profilecard/Profilecard'
 // import Crud from './local-storage/Crud'
 // import Form from './form/Form'
@@ -158,12 +163,20 @@ function App() {
         </Routes> */}
 
         {/* project */}
-      <Navbar/>
+      {/* <Navbar/>
       <Banner/>
       <Category/>
       <Featured/>
-      <Footer/>
-     
+      <Footer/> */}
+
+
+      {/* ---------------To-Do-List------------- */}
+      {/* <ToDoList/> */}
+
+      {/* ----------------axios--------------- */}
+      {/* <AxiosGet/> */}
+      <AxiosPost/>
+      
 
 
 
