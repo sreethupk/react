@@ -4,8 +4,14 @@
 // import About from './react-router-dom/About'
 // import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import ProductPage from './designs/dynamic-routing-rv-exmple/ProductPage'
+// import { UseLayout } from './functional.component/Lifecycle-methods/useEffect-Hook/Uselayout'
+// import Player from './functional.component/Lifecycle-methods/useEffect-Hook/Player'
+// import AxiosPut from './Axios/AxiosPut'
+// import AxiosDelete from './Axios/AxiosDelete'
+// import UseEffectLayout from './functional.component/Lifecycle-methods/useEffect-Hook/UseLayoutEffect'
 // import AxiosGet from './Axios/AxiosGet'
-import AxiosPost from './Axios/AxiosPost'
+// import AxiosPost from './Axios/AxiosPost'
 // import ToDoList from './To-do-list/ToDoList'
 
 
@@ -90,6 +96,9 @@ function App() {
       {/* <ProfileForm/> */}
       {/* <RunEffectOnlyOnce/> */}
       {/* <RunEffectChange/> */}
+      {/* <UseEffectLayout/> */}
+      {/* <Player/> */}
+      {/* <UseLayout/> */}
 
 
       {/* ---------------------useContext--------------- */}
@@ -175,7 +184,12 @@ function App() {
 
       {/* ----------------axios--------------- */}
       {/* <AxiosGet/> */}
-      <AxiosPost/>
+      {/* <AxiosPost/> */}
+      {/* <AxiosDelete/> */}
+      {/* <AxiosPut/> */}
+
+      {/* dynamic routing real  */}
+      <ProductPage/>
       
 
 
