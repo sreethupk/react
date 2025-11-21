@@ -13,7 +13,7 @@ import heel3 from '../image/heel3.jpg'
 export const products = [
     {
         id:1,
-        Image:shoe,
+        image:shoe,
         title:"Men's shoe DN 23x, New products",
         Category:"LIFESTYLE",
         price:9830,
@@ -25,7 +25,7 @@ export const products = [
     },
     {
         id:2,
-        Image:heel,
+        image:heel,
         title:"women's Heel DM 23x, New product",
         Category:"LIFESTYLE",
         price:3999,

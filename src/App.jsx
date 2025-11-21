@@ -3,8 +3,14 @@
 // import Home from './react-router-dom/Home'
 // import About from './react-router-dom/About'
 // import { Route, Routes } from 'react-router-dom'
+// import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import ProductPage from './designs/dynamic-routing-rv-exmple/ProductPage'
+import UseMemo from './functional.component/Lifecycle-methods/useEffect-Hook/UseMemo'
+// import Child from './functional.component/hooks/useCallback/Child'
+// import Parent from './functional.component/hooks/useCallback/Parent'
+// import Counter from './functional.component/hooks/usecontext-Hook/useReduce/Counter'
+// import ProductPage from './designs/dynamic-routing-rv-exmple/ProductPage'
+// import ProductDetails from './designs/dynamic-routing-rv-exmple/ProductDetails'
 // import { UseLayout } from './functional.component/Lifecycle-methods/useEffect-Hook/Uselayout'
 // import Player from './functional.component/Lifecycle-methods/useEffect-Hook/Player'
 // import AxiosPut from './Axios/AxiosPut'
@@ -99,6 +105,10 @@ function App() {
       {/* <UseEffectLayout/> */}
       {/* <Player/> */}
       {/* <UseLayout/> */}
+      {/* <Counter/> */}
+      {/* <Parent/> */}
+      {/* <Child/> */}
+      <UseMemo/>
 
 
       {/* ---------------------useContext--------------- */}
@@ -189,8 +199,12 @@ function App() {
       {/* <AxiosPut/> */}
 
       {/* dynamic routing real  */}
-      <ProductPage/>
-      
+      {/* <ProductPage/> */}
+      {/* <Routes>
+         <Route path='/' element={<ProductPage/>}/>
+         <Route path='/products/id' element={<ProductDetails/>}/>
+      </Routes>
+       */}
 
 
 
